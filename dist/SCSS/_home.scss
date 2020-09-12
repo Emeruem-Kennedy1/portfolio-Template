@@ -1,0 +1,25 @@
+.home{
+    height: 100%;
+    padding-top: 40vh;
+    align-items: center;
+    text-align: center;
+    background:
+        linear-gradient(
+            to right,
+            rgba($primarycolor, 0.6),
+            rgba($primarycolor, 0.3)
+        ),
+        url('../nathan-dumlao-z7EJoGtNHDg-unsplash.jpg') center top;
+    background-size: cover;
+    &-name{
+        font-size: 3rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+
+        &-last{
+            color: $secondarycolor;
+            font-weight: 700;
+        }
+    }
+}
